@@ -62,9 +62,9 @@ function Home() {
     <div className="row p-4">
       <Alert message={message} show={show}/>
       <div className="mt-4">
-        <h2>Admin Panel</h2>
+        <h1>Admin Panel</h1>
       </div>
-      <div className="col-12 col-lg-4">
+      <div className="add"> //col-12 col-lg-4
         <form onSubmit={onSubmitHandler}>
           <InputGroup
             label="Email"
